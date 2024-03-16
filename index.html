@@ -17,7 +17,7 @@
     <!-- ------naviagtion----- -->
     <div id="header">
         <nav>
-            <a href="#" class="portfolio"><span>P</span>o r t f o l i o</a>
+            <a href="#home" class="portfolio"><span>P</span>o r t f o l i o</a>
             <div id="toggle"></div>
             <div id="sidebar">
                 <ul>
@@ -33,81 +33,87 @@
     <!-- ------home------->
     <div id="home">
         <div class="home-text">
-            <p>web Developer</p>
+            <p>Frontend Developer</p>
             <h1>I'm <span>R</span>ishabh <br> <span>K</span>aushik</h1>
         </div>
     </div>
-    <!------about---->
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="https://ik.imagekit.io/ymz5nakmpr/Portfolio%20pic/About_Me.png?updatedAt=1710595763748">
+  <!------about---->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="https://ik.imagekit.io/ymz5nakmpr/Portfolio%20pic/About_Me.png?updatedAt=1710595763748" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>"Passionate Front end Developer with experience in both virtual and on-site internships. Skilled in creating engaging 
+                    digital experiences through innovative solutions. Adept at teamwork and problem-solving, I am eager to contribute to a 
+                    dynamic Software Development team. Looking forward to leveraging my skills to drive success and innovation."</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')"><a>Skills</a></p>
+                    <p class="tab-links" onclick="opentab('experience')"><a>Experience</a></p>
+                    <p class="tab-links" onclick="opentab('education')"><a>Education</a></p>
                 </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>"Aspiring Front-End React Developer with a solid grasp
-                    of web development fundamentals and a keen
-                    enthusiasm for creating dynamic and responsive user
-                    interfaces. Eager to apply my knowledge of React.js,
-                    HTML, CSS, and JavaScript to contribute to innovative
-                    projects and continue my professional growth in the
-                    field"</p>
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')"><a>Skills</a></p>
-                        <p class="tab-links" onclick="opentab('experience')"><a>Experience</a></p>
-                        <p class="tab-links" onclick="opentab('education')"><a>Education</a></p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>PROGRAMMING LANGUAGE</span> <li>
-                            <li><br>HTML 5 </li>
-                            <li><br>CSS 3</li>
-                            <li><br>JavaScript ES6</li>
-                            <br>
-                            <li><span>LIBERARIES</span>
-                            <li>
-                                <li><br>React Js</li>
-                                <li><br>React Hooks</li>
-                                <li><br>React Router</li>
-                                <li><br>Redux</li>
-
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>Web Development and Design Intern</span></li>
-                            <li><br>Oasis Info Byte <br>
-                            Duration : 1 Month <br>
-                            April 2023 - May 2023 </li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>MASTER’S OF COMPUTER APPLICATION</span></li>
-                            <br>
-                            <li>H.R.Institute of Technology</li>
-                            <li>Abdul Kalam Technical University</li>
-                            <li>Ghaziabad, Uttar Pradesh, India</li>
-                            <li>2021-2023</li>
-                            <li><br><span>BACHELOR’S OF COMPUTER APPLICATION</span></li>
-                            <br>
-                            <li>H.R.Institute of Science & Technology</li>
-                            <li>Chaudhary Charan Singh University</li>
-                            <li>Ghaziabad, Uttar Pradesh, India</li>
-                            <li>2018-2021</li>
-                            <li><br><span>12th Grade in Commerce with Mathematics</span></li> <br>
-                            <li>12th Grade in Commerce with Mathematics</li>
-                            <li>Central Board of Secondary Education</li>
-                            <li>Ghaziabad, Uttar Pradesh, India</li>
-                            <li>2016-2018</li>
-                           
-                        </ul>
-                    </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>PROGRAMMING LANGUAGES</span></li>
+                        <li>HTML 5</li>
+                        <li>CSS 3</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <br>
+                        <li><span>LIBRARIES AND FRAMEWORKS</span></li>
+                        <li>Tailwind CSS</li>
+                        <li>Material UI</li>
+                        <li>Shadcn UI</li>
+                        <li>React.js</li>
+                        <li>React Hooks</li>
+                        <li>React Router</li>
+                        <li>Redux</li>
+                        <li>RTK Query</li>
+                        <li>Next.js</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Frontend Developer Intern</span></li>
+                        <li>Indian Robotic Solution</li>
+                        <li>Duration: 3 Months</li>
+                        <li>Paid internship (onsite)</li>
+                        <li>December 2023 - March 2024</li>
+                        <br>
+                        <li><span>Web Development and Design Intern</span></li>
+                        <li>Oasis Info Byte</li>
+                        <li>Duration: 1 Month</li>
+                        <li>Unpaid internship (WFH)</li>
+                        <li>April 2023 - May 2023</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>MASTER’S OF COMPUTER APPLICATION</span></li>
+                        <li>H.R.Institute of Technology</li>
+                        <li>Abdul Kalam Technical University</li>
+                        <li>Ghaziabad, Uttar Pradesh, India</li>
+                        <li>2021-2023</li>
+                        <br>
+                        <li><span>BACHELOR’S OF COMPUTER APPLICATION</span></li>
+                        <li>H.R.Institute of Science & Technology</li>
+                        <li>Chaudhary Charan Singh University</li>
+                        <li>Ghaziabad, Uttar Pradesh, India</li>
+                        <li>2018-2021</li>
+                        <br>
+                        <li><span>12th Grade in Commerce with Mathematics</span></li>
+                        <li>Central Board of Secondary Education</li>
+                        <li>Ghaziabad, Uttar Pradesh, India</li>
+                        <li>2016-2018</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
     <!-- ---services-- -->
     <div id="services">
         <div class="container">

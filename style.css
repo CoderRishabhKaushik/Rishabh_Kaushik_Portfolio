@@ -103,20 +103,20 @@ nav ul li a:hover::after {
 }
 
 .home-text p {
-    width: 0ch;
+    width: 0ch; 
     overflow: hidden;
-    white-space: nowrap;
-    animation: text 6s steps(13) infinite alternate;
-    border-right: 3px solid #fff;
+    white-space: nowrap; 
+    animation: text 12s steps(16) infinite alternate; 
+    border-right: 3px solid #fff; 
 }
 
 @keyframes text {
     0% {
-        width: 0ch;
+        width: 0ch; 
     }
 
     50% {
-        width: 13ch;
+        width: 16ch; 
     }
 }
 
