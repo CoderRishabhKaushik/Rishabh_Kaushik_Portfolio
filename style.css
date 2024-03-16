@@ -91,7 +91,7 @@ nav ul li a:hover::after {
 #home {
     width: 100vw;
     height: 100vh;
-    background-image: url(photo1.png);
+    background-image: url(https://ik.imagekit.io/ymz5nakmpr/Portfolio%20pic/photo1.png?updatedAt=1710595764554);
     background-size: cover;
     background-position: center;
     
@@ -619,7 +619,7 @@ nav .fas {
 
 @media only screen and (max-width:912px) {
     #home {
-        background-image: url(photo3.png);
+        background-image: url(https://ik.imagekit.io/ymz5nakmpr/Portfolio%20pic/photo3.png?updatedAt=1710595764002);
     }
 }
 
